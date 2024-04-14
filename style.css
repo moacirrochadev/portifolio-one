@@ -80,10 +80,9 @@ header div p {
 }
 
 .perfil {
-  width: 350px;
-  height: 360px;
-  border-radius: 50%;
-  padding-bottom: 16px;
+  width: 200px;
+  height: 300px;
+  border-radius: 8px;
 }
 
 .hero {
@@ -324,6 +323,180 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
+  ::placeholder {
+  font-size: 12px; /* Altere o valor conforme desejado */
+  padding-top: 8px;
+}
+
+  body {
+    border: 1px solid orange;
+  }
+
+  header {
+    height: 56px;
+    padding: 16px;
+  }
+
+  .logo {
+    display: flex;
+    gap: 10px;
+  }
+
+  .fa-solid .fa-laptop-file .fa-beat {
+    width: 20px;
+    height: 20px;
+  }
+
+  header div h3 {
+    font-size: 16px;
+  }
+
+  .menu__list {
+    display: none;
+  }
+
+  .email-contato p {
+    display: block;
+    font-size: 14px;
+  }
+
+  .apresentacao {
+    flex-direction: column;
+    align-items: start;
+    padding: 16px;
+    gap: 8px;
+  }
+
+  .perfil {
+    width: 100px;
+    height: 160px;
+  }
+
+  .hero__title {
+    font-size: 22px;
+  }
+
+  .descricao {
+    font-size: 14px;
+  }
+
+  .redes__sociais {
+    font-size: 14px;
+  }
+
+  .sobre-mim,
+  .skills,
+  .hobbies,
+  .formacao,
+  .projetos,
+  .contato {
+    padding: 16px;
+  }
+
+  .skill__title,
+  .hobbies__title,
+  .formacao__title,
+  .sobre-mim__title,
+  .projetos_title,
+  .contato__title {
+    font-size: 22px;
+    padding: 16px;
+  }
+
+  .skills__grid,
+  .hobbies__grid {
+    display: grid;
+    grid-template-columns: 156px 156px;
+    grid-template-rows: 118px 118px 118px;
+    gap: 10px;
+  }
+
+  .language,
+  .atividades {
+    width: 156px;
+    height: 118px;
+  }
+
+  .formacao {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .escola {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .image__escola {
+    width: 296px;
+    height: 118px;
+  }
+
+  .escola div h3 {
+    font-size: 16px;
+  }
+
+  .escola div p {
+    font-size: 14px;
+  }
+
+  .escola div {
+    gap: 8px;
+  }
+
+  #projeto__um,
+  #projeto__dois,
+  #projeto__tres {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 8px;
+    padding: 16px;
+    margin: 0 auto;
+  }
+
+  .image img {
+    width: 296px;
+    height: 118px;
+  }
+
+  .contato {
+    flex-direction: column;
+  }
+
+  .contato__img {
+    display: none;
+  }
+
+  .contato__conteudo {
+    gap: 8px;
+  }
+
+  .campos {
+    gap: 8px;
+  }
+
+  .contato__texto {
+    font-size: 16px;
+  }
+
+  .contato__texto p {
+    font-size: 12px;
+  }
+
+  textarea {
+    width: 296px;
+  }
+
+  #mensagem {
+    height: 133px;
+  }
+
+  .rodape {
+    margin-top: 40px;
+    padding: 32px;
+    height: 102px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
