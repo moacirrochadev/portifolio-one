@@ -57,8 +57,13 @@ header {
   justify-content: space-around;
 }
 
+ul {
+  padding: 16px;
+}
+
 li {
   list-style: none;
+  padding: 16px;
 }
 
 a {
@@ -496,4 +501,92 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
+
+.banner {
+  justify-content: space-between;
+  padding: 32px;
+}
+
+.logo h3 {
+  font-size: 22px;
+}
+
+.banner p {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.menu__list {
+  display: none;
+}
+
+.apresentacao {
+  padding: 32px;
+}
+
+.hero__title {
+  font-size: 22px;
+}
+
+.descricao {
+  font-size: 16px;
+}
+
+.perfil {
+  width: 180px;
+  height: 250px;
+}
+
+.sobre-mim {
+  justify-content: start;
+}
+
+.sobre-mim__title {
+  padding: 0px;
+  margin-bottom: 16px;
+  text-align: start;
+  font-size: 22px;
+}
+
+.sobre-mim__text {
+  font-size: 14px;
+}
+
+.skill__title, .hobbies__title, .formacao__title {
+  font-size: 22px;
+  padding: 16px;
+}
+
+.skills__grid, .hobbies__grid {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+}
+
+.language, .atividades {
+  width: 224px;
+  height: 118px;
+}
+
+.projetos {
+  gap: 15px;
+}
+
+#projeto__um, #projeto__dois, #projeto__tres {
+  flex-direction: column;
+  align-items: start;
+  gap: 8px;
+}
+
+.image img {
+  width: 704px;
+  height: 320px;
+}
+
+.contato__img{
+  display: none;
+}
+
 }
