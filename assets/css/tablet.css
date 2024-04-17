@@ -1,0 +1,71 @@
+@media screen and (min-width: 768px) {
+
+        /* ÁREA DO HEADAR */
+  .menu {
+    padding: 32px;
+  }
+
+  .menu__list__item__contato a {
+    font-size: 16px;
+  }
+
+  /* ÁREA DO TITLE */
+
+  .title {
+    padding: 32px;
+  }
+
+  .title__div {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    align-items: center;
+        gap: 32px;
+}
+
+.title__subsection {
+        font-size: 16px;
+}
+
+  .title__profile {
+    width: 146px;
+  }
+
+  .title__network__item i {
+        font-size: 32px;
+}
+
+/* SOBRE MIM */
+
+.about {
+        padding: 32px;
+}
+
+/* SKILL E HOBBIES */
+.skills, .hobbies, .academic, .experience, .formcontato {
+        padding: 32px;
+}
+
+.skills__line, .hobbies__line {
+        grid-template-columns: auto auto auto;
+}
+
+/* ÁREA ACADÊMICA */
+
+.academic__courses {
+        flex-direction: row;
+}
+
+/* ÁREA DE EXPERIÊNCIA PROFISSIONAL*/
+.experiencie__box {
+        width: 704px;
+}
+
+.experience__img {
+        width: 704px;
+}
+
+/* ÁREA DE CONTATO */
+
+
+}

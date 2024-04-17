@@ -1,0 +1,95 @@
+@media screen and (min-width: 1366px) {
+
+        body {
+                max-width: 1920px;
+                margin: 0 auto;
+        }
+  /* ÁREA DO DEADER */
+  .menu__list {
+    display: flex;
+    gap: 32px;
+  }
+
+  .menu__list__item__contato {
+    display: none;
+  }
+
+  /* ÁREA DO TITLE */
+  .title__div {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .title__profile {
+    width: 368px;
+  }
+
+  .title__bio {
+    font-size: 52px;
+  }
+
+  .title__subsection {
+    font-size: 22px;
+  }
+
+  .title__network__item i {
+    font-size: 32px;
+  }
+
+  /* ÁREA SOBRE MIM */
+  .about {
+        padding: 32px;
+  }
+
+  .about__container {
+        margin: 0 auto;
+  }
+
+  .skills__line {
+        grid-template-columns: auto auto auto auto auto auto;
+  }
+
+  .hobbies__line {
+        grid-template-columns: auto auto auto auto auto;
+  }
+
+  /* FORMAÇÃO ACADÊMICA */
+  .academic__courses__box {
+        width: 400px;
+        height: 300px;
+  }
+
+  .academic__courses__item__img img {
+        width: 400px;
+        height: 200px;
+        background-color: #FFF;
+  }
+
+  /* EXPERIÊNCIA PROFISSIONAL*/
+  .experiencie__box {
+        width: 1136px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+  }
+
+  .experience__dois {
+        width: 1136px;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+  }
+
+  /* ÁREA DE CONTATOS */
+.formcontato__contacto {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+}
+
+  .formcontato--esquerda {
+        display: block;
+  }
+
+}
